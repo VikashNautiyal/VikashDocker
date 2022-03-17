@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8080
+ADD target/FirstDockerVIku-0.0.1-SNAPSHOT.jar FirstDockerVIku-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/FirstDockerVIku-0.0.1-SNAPSHOT.jar"]
